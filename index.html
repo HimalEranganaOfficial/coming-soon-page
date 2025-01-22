@@ -8,7 +8,6 @@
     <meta name="author" content="Himal Erangana">
     <meta name="keywords" content="Himal-Erangana, Himal, Erangana, Programming, Developer, Physics, ML, Ai, Python, HTML, CSS, Js, Java, React, Machnine-Learning, Dummy, Working">
     <meta name="description" content="This is a dummy file to replace the real conent of the site which is supposed to be here...">
-    <title>Document</title>
     <script src="https://kit.fontawesome.com/75062604e2.js" crossorigin="anonymous"></script>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
@@ -69,12 +68,7 @@ body {
 #maintext {
     cursor:wait;
     font-size:9.5vw;
-    display: flex;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
     font-weight: bold;
-    align-items: center;
     color: rgb(233, 233, 233);
 }
 .lawt {
@@ -82,21 +76,24 @@ body {
     text-align: center;
     position: fixed;
     bottom: 0%;
+    width: 100%;
+    left:calc(50% - 50vw);
     font-weight: bold;
     color: rgb(233, 233, 233);
 }
 .txt {
-    margin: auto;
-    z-index: 2;
-    display: block;
-    text-align: center;
-    width: 100%;
     background: rgba(255, 255, 255, 0.48);
-    border-radius: 16px;
+    border-radius: 32px 8px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 1);
+    position: fixed;
+    top:42.5%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left:50%;
+    z-index: +1;
 }
 
 .fa-duotone, .fa-solid, .fa-heart-pulse, .fa-shake {
@@ -128,6 +125,6 @@ i:hover {
   <video autoplay muted loop id="myVid">
   <source src="vid.mp4" type="video/mp4"></video>
   <h1 id="maintext" class="ubuntu-regular txt">Coming Soon…!</h1>
-  <p class="lawt ubuntu-regular">Made by <a id="linktree" href="https://linktr.ee/HimalErangana">Himal</a> with <i class="fa-duotone fa-solid fa-heart-pulse fa-shake" style="--fa-primary-color: #be0707; --fa-secondary-color: #c00462;"></i></p>
+  <footer class="lawt ubuntu-regular">Made by <a id="linktree" href="https://linktr.ee/HimalErangana">Himal</a> with <i class="fa-duotone fa-solid fa-heart-pulse fa-shake" style="--fa-primary-color: #be0707; --fa-secondary-color: #c00462;"></i></footer>
 </body>
 </html>
